@@ -120,7 +120,7 @@ public abstract class ContaCorrente {
 				saldo -= valor;
 				destino.saldo += valor;
 
-				String msg = "Transferência: " + destino.getNumero() + " -R$"
+				String msg = "TransferÃªncia: " + destino.getNumero() + " -R$"
 						+ valor;
 				String msgdestino = "Recebido de: "
 						+ this.correntista.getName() + " +R$" + valor;
@@ -180,6 +180,6 @@ public abstract class ContaCorrente {
 
 		return extrato;
 	}
-	// C:\\Users\Allan\\workspace\\TRABALHO_PARCIAL\\txt\\
+	
 
 }
