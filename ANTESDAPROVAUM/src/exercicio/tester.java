@@ -9,7 +9,7 @@ public class tester {
 		Container c1 = new ContainerNormal("a3", 200, 150, "Sandalias", 3);
 		Container c2 = new ContainerRefrigerado("a7", 100, 400);
 		Container c3 = new ContainerTanque("a1", 4, 150, 150);
-		Container c4 = new ContainerNormal("a7", 100, 120, "Remédio pra dengue", 2);
+		Container c4 = new ContainerNormal("a7", 100, 120, "RemÃ©dio pra dengue", 2);
 		Container c5 = new ContainerRefrigerado("a0", 100, 400);
 		
 		System.out.println(c1);
@@ -34,7 +34,7 @@ public class tester {
 		
 		mecanismo.armazenarBL(bill1);
 		
-		mecanismo.lerBL(bill1);
+		mecanismo.lerBL(1);
 		
 		
 		
