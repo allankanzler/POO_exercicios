@@ -20,12 +20,12 @@ public class MecanismoDePersistencia {
 
 	}
 
-	public String lerBL(BillOfLanding bl) {
+	public String lerBL(int bl) {
 		String msg = "";
 		
 		try {
 			FileReader arq = new FileReader("C:\\"
-					+ bl.getNumeroDoBL() + ".txt");
+					+ bl + ".txt");
 			BufferedReader lerArq = new BufferedReader(arq);
 			String linha = lerArq.readLine();
 			
