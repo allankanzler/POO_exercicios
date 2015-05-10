@@ -24,7 +24,7 @@ public class MecanismoDePersistencia {
 		String msg = "";
 		
 		try {
-			FileReader arq = new FileReader("C:\\Users\\Allan\\"
+			FileReader arq = new FileReader("C:\\"
 					+ bl.getNumeroDoBL() + ".txt");
 			BufferedReader lerArq = new BufferedReader(arq);
 			String linha = lerArq.readLine();
